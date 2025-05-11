@@ -1,0 +1,103 @@
+/*stylesheet.css*/
+html,body{
+    font-family: cursive;
+}
+
+
+.container{
+    border: 5px solid black;
+    background-color:grey;
+    justify-content: space-between;
+    display: flex;
+    height: 100vh;
+
+}
+
+.title{
+    display: flex;
+    color: rgb(255, 240, 27);
+    background-color: rgb(145, 16, 16);
+    width: 100%;
+    height: 200px;
+    font-size: 100px;
+    align-items: flex-start;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.sidebar{
+    flex-shrink: 0;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 45px;
+    width: 300px;
+
+}
+
+
+
+.main{
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    font-size: 30px;
+    gap :20px;
+    align-items: baseline;
+}
+
+
+
+.footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    display: flex;
+    background-color: grey;
+    width: 100%;
+    height: 50px;
+    font-size: 45px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.menu-head{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.menu{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.deals-head{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.deals{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.CATERING{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cat-head{
+    font-size: 50px;
+    font-weight: bold;
+}
